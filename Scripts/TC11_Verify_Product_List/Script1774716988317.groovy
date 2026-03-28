@@ -9,7 +9,7 @@ WebUI.callTestCase(findTestCase('Test Cases/Login_Test'), [:], FailureHandling.S
 
 // 2. Tìm TẤT CẢ các sản phẩm trên trang (dùng findWebElements có chữ 's')
 // Lưu ý: Đường dẫn 'Object Repository/item_product' phải khớp với tên bạn đã lưu ở Bước 2
-List<WebElement> products = WebUI.findWebElements(findTestObject('Object Repository/item_product'), 10)
+List<WebElement> products = WebUI.findWebElements(findTestObject('Object Repository/HomePage/item_product'), 10)
 
 // 3. In ra console số lượng tìm được để dễ debug
 println("Số lượng sản phẩm tìm thấy trên trang là: " + products.size())

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_Sort_Function</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>0eccdb5d-fcd3-41ed-805c-84c12feda291</testSuiteGuid>
+   <testCaseLink>
+      <guid>1560a132-86f1-4687-aee8-642c8ca90d41</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC12_Verify_Sort_Function</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>5c1f93ee-e3c0-4c79-9113-3f7e53598f9f</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Sort_Data</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>5c1f93ee-e3c0-4c79-9113-3f7e53598f9f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>sort_option</value>
+         <variableId>49225fe3-db25-4d38-8df9-0bbd57c80706</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>5c1f93ee-e3c0-4c79-9113-3f7e53598f9f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expected_item</value>
+         <variableId>048d0e72-d7ec-4826-9219-d75033d6a29e</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

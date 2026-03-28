@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC12_Verify_Sort_Function</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>84a345ff-4fa3-4c47-9d2c-dd2eec5a321a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>49225fe3-db25-4d38-8df9-0bbd57c80706</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>048d0e72-d7ec-4826-9219-d75033d6a29e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>49225fe3-db25-4d38-8df9-0bbd57c80706</id>
+      <masked>false</masked>
+      <name>sort_option</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>048d0e72-d7ec-4826-9219-d75033d6a29e</id>
+      <masked>false</masked>
+      <name>expected_item</name>
+   </variable>
+</TestCaseEntity>
