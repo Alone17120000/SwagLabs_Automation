@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC13_Verify_Navigation_By_Name</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>710b613c-ee26-4ceb-bef6-9084e660deee</testCaseGuid>
+</TestCaseEntity>
