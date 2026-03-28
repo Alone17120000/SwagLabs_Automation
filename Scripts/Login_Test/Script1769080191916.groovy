@@ -27,5 +27,5 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Swag Labs/input_Sw
 
 WebUI.click(findTestObject('Object Repository/Page_Swag Labs/input_Swag Labs_login-button'))
 
-WebUI.closeBrowser()
+WebUI.verifyMatch(WebUI.getUrl(), 'https://www.saucedemo.com/inventory.html', false)
 
