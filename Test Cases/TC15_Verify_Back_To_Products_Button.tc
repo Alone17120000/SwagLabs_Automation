@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC15_Verify_Back_To_Products_Button</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c236b394-1c22-4a58-812f-b4e805fbd13e</testCaseGuid>
+</TestCaseEntity>
