@@ -1,28 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_ResetAppState</name>
+   <name>txt_CompleteHeader</name>
    <tag></tag>
-   <elementGuidId>ba33ec17-c660-4fec-96b8-8d627fea02ed</elementGuidId>
+   <elementGuidId>b6c5f326-c141-4d04-865e-36bdbf66bb53</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'reset_sidebar_link']</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//a[@class='shopping_cart_link']</value>
+         <value>//*[@class = 'complete-header']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>class</name>
       <type>Main</type>
-      <value>reset_sidebar_link</value>
-      <webElementGuid>db003f47-e46c-48a2-a40e-b5986f3bf26d</webElementGuid>
+      <value>complete-header</value>
+      <webElementGuid>afb49ef3-7ef8-4f18-ab91-d6352274ce91</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

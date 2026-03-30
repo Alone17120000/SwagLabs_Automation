@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//*[@id = 'react-burger-menu-btn']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>react-burger-menu-btn</value>
-      <webElementGuid>1c274303-724f-44ce-9845-79ba4c0bd614</webElementGuid>
+      <webElementGuid>470d5053-72c0-4d35-9855-904c3b28650f</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
