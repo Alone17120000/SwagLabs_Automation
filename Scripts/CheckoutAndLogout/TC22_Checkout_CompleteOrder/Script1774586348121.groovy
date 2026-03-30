@@ -9,6 +9,7 @@ WebUI.click(findTestObject('Object Repository/btn_Login'))
 
 WebUI.click(findTestObject('Object Repository/btn_AddToCart'))
 WebUI.click(findTestObject('Object Repository/btn_Cart')) 
+WebUI.delay(1)
 WebUI.click(findTestObject('Object Repository/btn_Checkout')) 
 
 WebUI.setText(findTestObject('Object Repository/txt_FirstName'), 'Khoa')
