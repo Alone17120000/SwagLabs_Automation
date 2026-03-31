@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC19_Verify_Continue_Shopping</name>
+   <name>TC19_Verify_Cart_Item_Link</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>029134ba-2ded-448e-a5ba-0cf9d3549e08</testCaseGuid>
+   <testCaseGuid>7b59ee15-abb7-4d1b-9bda-e904e11e406b</testCaseGuid>
 </TestCaseEntity>
