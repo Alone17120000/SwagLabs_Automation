@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC16_Verify_Cart_After_Refresh</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>decbcca7-f487-45b0-891a-3a18b08924f4</testCaseGuid>
+</TestCaseEntity>

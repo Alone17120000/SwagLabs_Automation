@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_Social_Links</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>a569ba2d-e9fd-4d39-ba86-918e0b017f9e</testSuiteGuid>
+   <testCaseLink>
+      <guid>8fa9e905-2f35-402f-8593-4f62d561b19c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC18_Verify_Social_Media_Links</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>025cebe4-a72d-4814-ab0e-31fd4cda563a</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Social_Data</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>025cebe4-a72d-4814-ab0e-31fd4cda563a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>social_name</value>
+         <variableId>ca9f47d5-0a6b-4e3e-91ca-670580770f74</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>025cebe4-a72d-4814-ab0e-31fd4cda563a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expected_url</value>
+         <variableId>28f04709-4af8-4b04-ae55-64630edde6b9</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

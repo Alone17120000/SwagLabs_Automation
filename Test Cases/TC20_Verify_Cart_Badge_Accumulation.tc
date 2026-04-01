@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC20_Verify_Cart_Badge_Accumulation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>99d2944d-b4bd-497f-9462-c695b2a4467e</testCaseGuid>
+</TestCaseEntity>

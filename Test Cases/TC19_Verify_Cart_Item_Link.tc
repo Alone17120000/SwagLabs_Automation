@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC19_Verify_Cart_Item_Link</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7b59ee15-abb7-4d1b-9bda-e904e11e406b</testCaseGuid>
+</TestCaseEntity>

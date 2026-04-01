@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC18_Verify_Social_Media_Links</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>26723047-7ba3-41ba-80f2-fa9c1c173051</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ca9f47d5-0a6b-4e3e-91ca-670580770f74</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>28f04709-4af8-4b04-ae55-64630edde6b9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ca9f47d5-0a6b-4e3e-91ca-670580770f74</id>
+      <masked>false</masked>
+      <name>social_name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>28f04709-4af8-4b04-ae55-64630edde6b9</id>
+      <masked>false</masked>
+      <name>expected_url</name>
+   </variable>
+</TestCaseEntity>
