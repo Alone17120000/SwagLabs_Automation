@@ -16,5 +16,5 @@ WebUI.click(findTestObject('Object Repository/btn_ResetAppState'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/btn_AddToCart'), 5)
 
-
+WebUI.takeScreenshot()
 WebUI.closeBrowser()

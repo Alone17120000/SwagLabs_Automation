@@ -20,5 +20,5 @@ WebUI.click(findTestObject('Object Repository/btn_CancelOverview'))
 
 def currentUrl = WebUI.getUrl()
 WebUI.verifyMatch(currentUrl, '.*inventory.html.*', true)
-
+WebUI.takeScreenshot()
 WebUI.closeBrowser()

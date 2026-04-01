@@ -20,5 +20,5 @@ WebUI.click(findTestObject('Object Repository/btn_Continue'))
 WebUI.click(findTestObject('Object Repository/btn_Finish')) 
 
 WebUI.verifyElementText(findTestObject('Object Repository/txt_CompleteHeader'), 'Thank you for your order!')
-
+WebUI.takeScreenshot()
 WebUI.closeBrowser()

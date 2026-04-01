@@ -26,6 +26,6 @@ WebUI.click(findTestObject('Object Repository/btn_BackHome'))
 
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/btn_AddToCart'), 3)
-
+WebUI.takeScreenshot()
 
 WebUI.closeBrowser()

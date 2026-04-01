@@ -15,5 +15,5 @@ WebUI.click(findTestObject('Object Repository/btn_BackToProducts'))
 
 def currentUrl = WebUI.getUrl()
 WebUI.verifyMatch(currentUrl, '.*inventory.html.*', true)
-
+WebUI.takeScreenshot()
 WebUI.closeBrowser()

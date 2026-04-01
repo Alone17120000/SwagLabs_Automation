@@ -17,5 +17,5 @@ WebUI.setText(findTestObject('Object Repository/txt_ZipCode'), '700000')
 WebUI.click(findTestObject('Object Repository/btn_Continue'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/txt_ProductName_Overview'), 'Sauce Labs Backpack')
-
+WebUI.takeScreenshot()
 WebUI.closeBrowser()

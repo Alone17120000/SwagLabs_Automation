@@ -15,5 +15,5 @@ WebUI.delay(1)
 WebUI.click(findTestObject('Object Repository/btn_RemoveInCart'))
 
 WebUI.verifyElementNotPresent(findTestObject('Object Repository/item_Cart_Product'), 3)
-
+WebUI.takeScreenshot()
 WebUI.closeBrowser()

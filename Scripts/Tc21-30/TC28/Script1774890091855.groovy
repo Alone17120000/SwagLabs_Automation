@@ -19,5 +19,5 @@ WebUI.click(findTestObject('Object Repository/btn_Continue'))
 WebUI.verifyElementText(findTestObject('Object Repository/txt_ItemTotal'), 'Item total: $7.99')
 
 WebUI.verifyElementText(findTestObject('Object Repository/txt_Total'), 'Total: $8.63')
-
+WebUI.takeScreenshot()
 WebUI.closeBrowser()

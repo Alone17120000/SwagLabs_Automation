@@ -20,5 +20,5 @@ WebUI.click(findTestObject('Object Repository/btn_Login'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/txt_CartBadge'), '1')
 
-
+WebUI.takeScreenshot()
 WebUI.closeBrowser()
