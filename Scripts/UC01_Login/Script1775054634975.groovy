@@ -27,5 +27,35 @@ WebUI.click(findTestObject('UCO1/btn_login'))
 
 WebUI.verifyElementPresent(findTestObject('UCO1/txt_products'), 5)
 
+WebUI.selectOptionByValue(findTestObject('UCO1/select_sort'), 'lohi', false)
+
+WebUI.click(findTestObject('UCO1/lnk_backpack'))
+
+WebUI.click(findTestObject('UCO1/btn_add_cart'))
+
+WebUI.click(findTestObject('UCO1/btn_remove'))
+
+WebUI.click(findTestObject('UCO1/btn_add_cart'))
+
+WebUI.click(findTestObject('UCO1/icon_cart'))
+
+WebUI.click(findTestObject('UCO1/btn_checkout'))
+
+WebUI.setText(findTestObject('UCO1/txt_fname'), 'Hau')
+
+WebUI.setText(findTestObject('UCO1/lname'), 'Nguyen')
+
+WebUI.setText(findTestObject('UCO1/zip'), '70000')
+
+WebUI.click(findTestObject('UCO1/btn_continue'))
+
+WebUI.verifyElementPresent(findTestObject(null), 0)
+
+WebUI.click(findTestObject('UCO1/btn_finish'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('UCO1/btn_menu'))
+
+WebUI.click(findTestObject('UCO1/lnk_logout'))
+
 WebUI.closeBrowser()
 

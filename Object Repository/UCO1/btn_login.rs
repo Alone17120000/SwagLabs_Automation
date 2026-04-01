@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//*[@id = 'login-button']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>login-button</value>
-      <webElementGuid>3043f68e-57e4-4ed2-8654-cc2c6ff87dba</webElementGuid>
+      <webElementGuid>7a889558-938c-438f-a471-3e2ec60bcf29</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
