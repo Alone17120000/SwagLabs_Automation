@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC21_Checkout_EmptyInformation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>37cc7b0b-ac01-4af7-98bb-c352dbcd77e2</testCaseGuid>
+</TestCaseEntity>
