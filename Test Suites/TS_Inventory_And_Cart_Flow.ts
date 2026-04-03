@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_Inventory_And_Cart_Flow</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>1</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>true</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>0dd2a800-8ff8-4c59-a6f5-bc2b27a0e8a2</testSuiteGuid>
+   <testCaseLink>
+      <guid>7b30435f-1a1a-4f00-a69d-7e338f4ee0e7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC11_Verify_Product_List</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5cd9d966-11bd-40ca-a807-4d6f13e875a2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC12_Verify_Sort_Function</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>391a078b-ecb9-4a00-b986-c5f23cfebdae</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Sort_Data</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>391a078b-ecb9-4a00-b986-c5f23cfebdae</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>sort_option</value>
+         <variableId>49225fe3-db25-4d38-8df9-0bbd57c80706</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>391a078b-ecb9-4a00-b986-c5f23cfebdae</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expected_item</value>
+         <variableId>048d0e72-d7ec-4826-9219-d75033d6a29e</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1ec5c43a-c0e8-4dda-8dc7-1fdbfe88d7c8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC13_Verify_Navigation_By_Name</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e2242d06-28dd-44ab-a2bf-bf7454207aec</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC14_Verify_Navigation_By_Image</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0c64c033-bdd8-4921-b558-3aa57be7a730</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC15_Verify_Back_To_Products_Button</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>49b8b0ad-5825-414f-a795-64bfda08150b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC16_Verify_Cart_After_Refresh</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>dee5e61e-424c-4c97-8bab-b97a65eede9a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC17_Verify_Continue_Shopping</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1d5d677b-0e91-4836-a566-42a271fcd581</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f731424e-061f-4af3-a931-e4df24d4ccae</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>473e46e6-f784-4041-8ab9-e5f95221053d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cf222aeb-495f-4bac-b02a-62626cd14351</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bd286f8e-5e20-4870-95c9-97c43189ff42</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC18_Verify_Social_Media_Links</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>f82fd4c4-5f55-4aec-b6fa-0c6ef4dc2487</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Social_Data</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>f82fd4c4-5f55-4aec-b6fa-0c6ef4dc2487</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>social_name</value>
+         <variableId>ca9f47d5-0a6b-4e3e-91ca-670580770f74</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f82fd4c4-5f55-4aec-b6fa-0c6ef4dc2487</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expected_url</value>
+         <variableId>28f04709-4af8-4b04-ae55-64630edde6b9</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f5043f3b-36c5-40a9-93d7-31f70d67fc8a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC19_Verify_Cart_Item_Link</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3ffdb2a0-2b39-4d36-82e8-ca0537ad41e8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC20_Verify_Cart_Badge_Accumulation</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+</TestSuiteEntity>
