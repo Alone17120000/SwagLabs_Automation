@@ -27,6 +27,18 @@ WebUI.click(findTestObject('UCO1/btn_login'))
 
 WebUI.verifyElementPresent(findTestObject('UCO1/txt_products'), 5)
 
+WebUI.selectOptionByValue(findTestObject('UCO1/select_sort'), 'az', false)
+
+WebUI.selectOptionByValue(findTestObject('UCO1/select_sort'), 'za', false)
+
+WebUI.selectOptionByValue(findTestObject('UCO1/select_sort'), 'lohi', false)
+
+WebUI.selectOptionByValue(findTestObject('UCO1/select_sort'), 'hilo', false)
+
+WebUI.click(findTestObject('UCO1/btn_menu'))
+
+WebUI.click(findTestObject('UCO1/lnk_reset'))
+
 WebUI.selectOptionByValue(findTestObject('UCO1/select_sort'), 'lohi', false)
 
 WebUI.click(findTestObject('UCO1/lnk_backpack'))
@@ -49,9 +61,15 @@ WebUI.setText(findTestObject('UCO1/zip'), '70000')
 
 WebUI.click(findTestObject('UCO1/btn_continue'))
 
-WebUI.verifyElementPresent(findTestObject(null), 0)
+WebUI.verifyElementPresent(findTestObject('UCO1/txt_overview_title'), 5)
+
+WebUI.verifyElementPresent(findTestObject('UCO1/txt_total_price'), 0)
 
 WebUI.click(findTestObject('UCO1/btn_finish'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('UCO1/btn_back_home'))
+
+WebUI.click(findTestObject('UCO1/lnk_fb'))
 
 WebUI.click(findTestObject('UCO1/btn_menu'))
 
